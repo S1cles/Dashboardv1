@@ -1,0 +1,110 @@
+.active {
+  transition: cubic-bezier(0.445, 0.05, 0.55, 0.95) 1s;
+  background: #5932ea;
+  color: white !important;
+  fill: white !important;
+  stroke: white !important;
+}
+
+.common {
+  color: #9197b3;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  height: 100vh;
+  margin: 0 20px;
+  gap: 20px;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-around;
+  border: none;
+  align-items: center;
+  width: 100%;
+  margin: 10px;
+  padding: 15px 10px;
+  border-radius: 8px;
+  //font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.01em;
+  color: white;
+
+}
+
+.btn_content {
+  display: flex;
+  justify-content: space-between;
+  gap: 5px;
+}
+//svg{
+//  //background: white !important;
+//  //color: white !important;
+//}
+.img__big {
+  position: static !important; /* Override position if it's being set to absolute */
+  fill: white;  /* Note: this only works if the SVG is inline */
+  stroke: white;  /* Note: this only works if the SVG is inline */
+  filter: brightness(151%);
+}
+.active{
+  background: #5932EA;
+}
+
+//.img__container {
+//  display: flex;
+//  justify-content: center;
+//  margin: 20px;
+//  align-items: center;
+//}
+
+.main-frame .layout_container {
+  height: 100vh;
+  position: fixed;
+  box-shadow: var(--shadow);
+  //background-color: #282f42;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0px 20px 20px 0px; /* Uncommented */
+}
+
+//.account_block {
+//  display: flex;
+//  justify-content: space-between;
+//  //background-color: #1e283a;
+//  border-radius: 30px;
+//  align-items: center;
+//  margin: 20px;
+//
+//}
+
+//.account_left_side {
+//  display: flex;
+//  align-items: center;
+//  line-height: 1px;
+//}
+
+//.account_text {
+//  text-align: center;
+//}
+//.phantom{
+//  width: 200px;
+//  height: 100vh;
+//
+//}
+//.main-frame{
+//  z-index: 9999;
+//}
+
+//.account_block > span {
+//  display: flex;
+//  align-items: center;
+//  justify-content: space-between;
+//}
